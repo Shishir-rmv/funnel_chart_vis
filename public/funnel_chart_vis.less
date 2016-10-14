@@ -1,0 +1,21 @@
+@import (reference) "~ui/styles/mixins.less";
+
+.funnel-chart-vis {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+
+  .funnel-chart-value {
+    font-weight: bold;
+    .ellipsis();
+  }
+
+  .funnel-chart-container {
+    text-align: center;
+    padding: 1em;
+  }
+}
